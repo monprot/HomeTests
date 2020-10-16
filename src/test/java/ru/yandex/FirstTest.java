@@ -39,10 +39,10 @@ public class FirstTest extends TestSettings {
         String title = getDriver().getTitle();//получаем значение заголовка вкладки
         Assert.assertEquals(title,"GitHub - kolik929/TestLesson" );//по заголовку проверяем в верном ли мы месте
 
-//        getDriver().switchTo().window(newTab.get(0));//обратно на первую страницу
-//        in.clickHomeLogo();//кликаем на лого
-//        String title2 = getDriver().getTitle();//получаем значение заголовка вкладки
-//        Assert.assertEquals(title2,"Яндекс" );
+        getDriver().switchTo().window(newTab.get(0));//обратно на первую страницу
+        in.clickHomeLogo();//кликаем на лого
+        String title2 = getDriver().getTitle();//получаем значение заголовка вкладки
+        Assert.assertEquals(title2,"Яндекс" );
 
 
     }
