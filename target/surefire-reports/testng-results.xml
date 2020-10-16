@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="16702" started-at="2020-10-14T21:32:41 MSK" finished-at="2020-10-14T21:32:58 MSK">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="16702" started-at="2020-10-14T21:32:41 MSK" finished-at="2020-10-14T21:32:58 MSK">
+      <class name="ru.yandex.FirstTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ru.yandex.FirstTest@22a67b4]" name="beforeTest" is-config="true" duration-ms="3141" started-at="2020-10-14T21:32:41 MSK" finished-at="2020-10-14T21:32:44 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:ru.yandex.FirstTest@22a67b4]" name="firstTest" duration-ms="13284" started-at="2020-10-14T21:32:44 MSK" finished-at="2020-10-14T21:32:57 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ru.yandex.FirstTest@22a67b4]" name="afterTest" is-config="true" duration-ms="246" started-at="2020-10-14T21:32:57 MSK" finished-at="2020-10-14T21:32:58 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ru.yandex.FirstTest -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
