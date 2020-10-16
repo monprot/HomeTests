@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="16702" started-at="2020-10-14T21:32:41 MSK" finished-at="2020-10-14T21:32:58 MSK">
+  <suite name="Suite1" duration-ms="52451" started-at="2020-10-17T00:52:48 MSK" finished-at="2020-10-17T00:53:40 MSK">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="16702" started-at="2020-10-14T21:32:41 MSK" finished-at="2020-10-14T21:32:58 MSK">
+    <test name="Nopackage" duration-ms="52451" started-at="2020-10-17T00:52:48 MSK" finished-at="2020-10-17T00:53:40 MSK">
       <class name="ru.yandex.FirstTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ru.yandex.FirstTest@22a67b4]" name="beforeTest" is-config="true" duration-ms="3141" started-at="2020-10-14T21:32:41 MSK" finished-at="2020-10-14T21:32:44 MSK">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ru.yandex.FirstTest@2b491fee]" name="beforeTest" is-config="true" duration-ms="22204" started-at="2020-10-17T00:52:48 MSK" finished-at="2020-10-17T00:53:10 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:ru.yandex.FirstTest@22a67b4]" name="firstTest" duration-ms="13284" started-at="2020-10-14T21:32:44 MSK" finished-at="2020-10-14T21:32:57 MSK">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:ru.yandex.FirstTest@2b491fee]" name="firstTest" duration-ms="27912" started-at="2020-10-17T00:53:10 MSK" finished-at="2020-10-17T00:53:38 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ru.yandex.FirstTest@22a67b4]" name="afterTest" is-config="true" duration-ms="246" started-at="2020-10-14T21:32:57 MSK" finished-at="2020-10-14T21:32:58 MSK">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ru.yandex.FirstTest@2b491fee]" name="afterTest" is-config="true" duration-ms="1035" started-at="2020-10-17T00:53:39 MSK" finished-at="2020-10-17T00:53:40 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
