@@ -1,21 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="52451" started-at="2020-10-17T00:52:48 MSK" finished-at="2020-10-17T00:53:40 MSK">
+  <suite name="Suite1" duration-ms="81343" started-at="2020-10-17T01:25:31 MSK" finished-at="2020-10-17T01:26:53 MSK">
     <groups>
     </groups>
-    <test name="Nopackage" duration-ms="52451" started-at="2020-10-17T00:52:48 MSK" finished-at="2020-10-17T00:53:40 MSK">
+    <test name="pupupu" duration-ms="668" started-at="2020-10-17T01:25:31 MSK" finished-at="2020-10-17T01:25:32 MSK">
+      <class name="Firsttest.Base4Test">
+        <test-method status="PASS" signature="Method1Test()[pri:0, instance:Firsttest.Base4Test@162be91c]" name="Method1Test" is-config="true" duration-ms="41" started-at="2020-10-17T01:25:31 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base4Test@162be91c]" name="Method3Test" is-config="true" duration-ms="1" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="test4Meth(java.lang.String, java.lang.String)[pri:0, instance:Firsttest.Base4Test@162be91c]" name="test4Meth" duration-ms="127" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4Meth -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base4Test@162be91c]" name="Method4Test" is-config="true" duration-ms="3" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method2Test()[pri:0, instance:Firsttest.Base4Test@162be91c]" name="Method2Test" is-config="true" duration-ms="1" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method2Test -->
+      </class> <!-- Firsttest.Base4Test -->
+    </test> <!-- pupupu -->
+    <test name="fifthTest" duration-ms="134" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+      <class name="Firsttest.Base5Test">
+        <test-method status="PASS" signature="Method1Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method1Test" is-config="true" duration-ms="1" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method3Test" is-config="true" duration-ms="2" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method3Test" is-config="true" duration-ms="1" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method3Test" is-config="true" duration-ms="3" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method3Test" is-config="true" duration-ms="0" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method3Test" is-config="true" duration-ms="3" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method3Test" is-config="true" duration-ms="0" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="Meth5Test(java.lang.String, java.lang.String)[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Meth5Test" duration-ms="5" started-at="2020-10-17T01:25:32 MSK" data-provider="SetEnvironment" finished-at="2020-10-17T01:25:32 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[72.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Meth5Test -->
+        <test-method status="PASS" signature="Meth5Test(java.lang.String, java.lang.String)[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Meth5Test" duration-ms="14" started-at="2020-10-17T01:25:32 MSK" data-provider="SetEnvironment" finished-at="2020-10-17T01:25:32 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Meth5Test -->
+        <test-method status="PASS" signature="Meth5Test(java.lang.String, java.lang.String)[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Meth5Test" duration-ms="3" started-at="2020-10-17T01:25:32 MSK" data-provider="SetEnvironment" finished-at="2020-10-17T01:25:32 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[73.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Meth5Test -->
+        <test-method status="PASS" signature="Meth5Test(java.lang.String, java.lang.String)[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Meth5Test" duration-ms="7" started-at="2020-10-17T01:25:32 MSK" data-provider="SetEnvironment" finished-at="2020-10-17T01:25:32 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[71.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Meth5Test -->
+        <test-method status="PASS" signature="Meth5Test(java.lang.String, java.lang.String)[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Meth5Test" duration-ms="9" started-at="2020-10-17T01:25:32 MSK" data-provider="SetEnvironment" finished-at="2020-10-17T01:25:32 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[75.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Meth5Test -->
+        <test-method status="PASS" signature="Meth5Test(java.lang.String, java.lang.String)[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Meth5Test" duration-ms="11" started-at="2020-10-17T01:25:32 MSK" data-provider="SetEnvironment" finished-at="2020-10-17T01:25:32 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[74.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Meth5Test -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method4Test" is-config="true" duration-ms="1" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method4Test" is-config="true" duration-ms="0" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method4Test" is-config="true" duration-ms="1" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method4Test" is-config="true" duration-ms="2" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method4Test" is-config="true" duration-ms="19" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method4Test" is-config="true" duration-ms="0" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method2Test()[pri:0, instance:Firsttest.Base5Test@43b4fe19]" name="Method2Test" is-config="true" duration-ms="0" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method2Test -->
+      </class> <!-- Firsttest.Base5Test -->
+    </test> <!-- fifthTest -->
+    <test name="Nopackage1" duration-ms="34" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+      <class name="Firsttest.Base2Test">
+        <test-method status="PASS" signature="Method1Test()[pri:0, instance:Firsttest.Base2Test@7fcbe147]" name="Method1Test" is-config="true" duration-ms="0" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1Test -->
+        <test-method status="PASS" signature="Method3Test()[pri:0, instance:Firsttest.Base2Test@7fcbe147]" name="Method3Test" is-config="true" duration-ms="1" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3Test -->
+        <test-method status="PASS" signature="MethTest()[pri:0, instance:Firsttest.Base2Test@7fcbe147]" name="MethTest" duration-ms="17" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethTest -->
+        <test-method status="PASS" signature="Method4Test()[pri:0, instance:Firsttest.Base2Test@7fcbe147]" name="Method4Test" is-config="true" duration-ms="2" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method4Test -->
+        <test-method status="PASS" signature="Method2Test()[pri:0, instance:Firsttest.Base2Test@7fcbe147]" name="Method2Test" is-config="true" duration-ms="2" started-at="2020-10-17T01:25:32 MSK" finished-at="2020-10-17T01:25:32 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method2Test -->
+      </class> <!-- Firsttest.Base2Test -->
+    </test> <!-- Nopackage1 -->
+    <test name="Nopackage" duration-ms="80300" started-at="2020-10-17T01:25:33 MSK" finished-at="2020-10-17T01:26:53 MSK">
       <class name="ru.yandex.FirstTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ru.yandex.FirstTest@2b491fee]" name="beforeTest" is-config="true" duration-ms="22204" started-at="2020-10-17T00:52:48 MSK" finished-at="2020-10-17T00:53:10 MSK">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ru.yandex.FirstTest@6c67e137]" name="beforeTest" is-config="true" duration-ms="15778" started-at="2020-10-17T01:25:33 MSK" finished-at="2020-10-17T01:25:48 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:ru.yandex.FirstTest@2b491fee]" name="firstTest" duration-ms="27912" started-at="2020-10-17T00:53:10 MSK" finished-at="2020-10-17T00:53:38 MSK">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:ru.yandex.FirstTest@6c67e137]" name="firstTest" duration-ms="62478" started-at="2020-10-17T01:25:48 MSK" finished-at="2020-10-17T01:26:51 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ru.yandex.FirstTest@2b491fee]" name="afterTest" is-config="true" duration-ms="1035" started-at="2020-10-17T00:53:39 MSK" finished-at="2020-10-17T00:53:40 MSK">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ru.yandex.FirstTest@6c67e137]" name="afterTest" is-config="true" duration-ms="1947" started-at="2020-10-17T01:26:51 MSK" finished-at="2020-10-17T01:26:53 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

@@ -18,7 +18,7 @@
         <class name="Firsttest.Base5Test"/>
     </classes>
     </test>
-    <test name="Nopackage">
+    <test name="Nopackage1">
         <classes>
             <class name="Firsttest.Base2Test"/>
         </classes>

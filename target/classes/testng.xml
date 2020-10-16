@@ -1,11 +1,32 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1" verbose="1">
+
+
+    <test name="pupupu">
+        <parameter name="iDoNotKnow" value="yes"/>
+        <parameter name="iKnow" value="no"/>
+
+        <classes>
+            <class name="Firsttest.Base4Test"/>
+        </classes>
+    </test>
+
+    <test name="fifthTest">
+
+    <classes>
+        <class name="Firsttest.Base5Test"/>
+    </classes>
+    </test>
+    <test name="Nopackage1">
+        <classes>
+            <class name="Firsttest.Base2Test"/>
+        </classes>
+    </test>
     <test name="Nopackage">
         <classes>
             <class name="ru.yandex.FirstTest"/>
         </classes>
     </test>
-
-
 </suite>
+
