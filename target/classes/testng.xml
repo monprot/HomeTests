@@ -25,7 +25,7 @@
     </test>
     <test name="Nopackage">
         <classes>
-            <class name="ru.yandex.FirstTest"/>
+            <class name="ru.yandex.SecondTest"/>
         </classes>
     </test>
 </suite>

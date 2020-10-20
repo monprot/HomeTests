@@ -52,6 +52,20 @@ public class UnitBase extends Base {
 
     @FindBy(xpath = "(.//button[@data-nb='button'])[2]")//кнопка отправить письмо
     private WebElement mailSend;
+
+    @FindBy(xpath = ".//a[text()='Перейти во «Входящие».']")//кнопка входящие
+    private WebElement inputsMail;
+
+    @FindBy(xpath = ".//span[@class='mail-ComposeButton-Refresh js-main-action-refresh ns-action']")//кнопка обновить
+    private WebElement refreshMail;
+
+    @FindBy(xpath = "(.//span[@title='Тестируем почту'])[1]")
+    private WebElement findMail;
+
+    @FindBy(xpath = "(.//span[@title='текст письма'])[2]")
+    private WebElement findMail2;
+
+    //.//div[@class='mail-Message-Toolbar-Subject mail-Message-Toolbar-Subject_message js-toolbar-subject js-subject-content js-invalid-drag-target']
     /**
      * Вводим текст в поисковую строку.
      *
@@ -126,10 +140,26 @@ public class UnitBase extends Base {
      */
     public void setMailText(String text) { setText(mailText, text); }
 
-    public void clickMailText() { click(mailText);}
+    /**
+     * Кликаем на поле ввода текста(просто так надо)
+     */
+    public void clickMailText() { click(mailText); }
     /**
      * кнопка отправки письма
      */
-    public void clickSendMail() { click(mailSend);}
+    public void clickSendMail() { click(mailSend); }
 
+    /**
+     * Кликаем на входящие письма
+     */
+    public void clickInputsMail() { click(inputsMail); }
+
+    /**
+     * Кликаем кнопку оновить
+     */
+    public void clickRefresh() { click(refreshMail); }
+
+    public void clickFindMail() { click(findMail); }
+
+    public void clickFindMail2() { click(findMail2); }
 }
