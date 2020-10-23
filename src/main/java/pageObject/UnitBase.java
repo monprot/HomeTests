@@ -65,6 +65,27 @@ public class UnitBase extends Base {
     @FindBy(xpath = "(.//span[@title='текст письма'])[2]")
     private WebElement findMail2;
 
+    @FindBy(xpath = "(.//button[@data-lego='react'])[2]")
+    private WebElement settingsButton;
+
+    @FindBy(xpath = "(.//span[text()='Личные данные, подпись, портрет'])[2]")
+    private WebElement lkSetButton;
+
+    @FindBy(xpath = ".//div[@class='cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']")
+    private WebElement podText;
+
+    @FindBy(xpath = "(.//span[text()='Добавить подпись'])[2]")
+    private WebElement setPodBut;
+
+    @FindBy(xpath = "(.//span[@title='Тестируем почту2'])[1]")
+    private WebElement findMail3;
+
+    @FindBy(xpath = "(.//span[@title='текст письма2'])[2]")
+    private WebElement findMail4;
+
+    @FindBy(xpath = ".//a[@class='yandex-header__logo-service yandex-header__logo-service_lang_ru count-me']")
+    protected WebElement logo;
+
     //.//div[@class='mail-Message-Toolbar-Subject mail-Message-Toolbar-Subject_message js-toolbar-subject js-subject-content js-invalid-drag-target']
     /**
      * Вводим текст в поисковую строку.
@@ -162,4 +183,22 @@ public class UnitBase extends Base {
     public void clickFindMail() { click(findMail); }
 
     public void clickFindMail2() { click(findMail2); }
+
+    public void clickSettingButton() { click(settingsButton); }
+
+    public  void clickLkSetButton() { click(lkSetButton); }
+
+    public void clickPodpText() { click(podText); }
+
+    public void setPodpText(String text) {
+        setText(podText, text) ;
+    }
+
+    public void clickSetPodButton() { click(setPodBut); }
+
+    public void clickFindMail3() { click(findMail3); }
+
+    public void clickFindMail4() { click(findMail4); }
+
+    public void clickLogo() { click(logo); }
 }
