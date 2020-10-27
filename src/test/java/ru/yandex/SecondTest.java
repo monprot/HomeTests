@@ -85,5 +85,17 @@ public class SecondTest extends TestSettings2 {
         Assert.assertTrue(isText2);
         Boolean isPodp2 = driver.findElements(By.xpath(".//div[contains(text(),'Я подпись подпись подпись, я вовсе не медведь')]")).size() > 0;
         Assert.assertTrue(isPodp2);
+        getDriver().findElement(By.xpath(".//span[text()='Входящие']")).click();
+        in.clickRefresh();//нажать на кнопку обновить
+        in.clickCheckMail1(); //чекбокс сообщения с первой темой
+        Thread.sleep(1000);
+        in.clickCheckMail2(); //чекбокс сообщения со второй темой
+        in.clickDeleteMails(); //клик кнопки удаления писем
+        Thread.sleep(1000);
+        Boolean isTotal = driver.findElements(By.xpath(".//span[@title='Тестируем почту']")).size() == 0;
+        Assert.assertTrue(isTotal);
+        Boolean isTotal2 = driver.findElements(By.xpath(".//span[@title='Тестируем почту2']")).size() == 0;
+        Assert.assertTrue(isTotal2);
+
     }
 }

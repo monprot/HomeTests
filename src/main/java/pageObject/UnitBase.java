@@ -86,7 +86,14 @@ public class UnitBase extends Base {
     @FindBy(xpath = ".//a[@class='yandex-header__logo-service yandex-header__logo-service_lang_ru count-me']")
     protected WebElement logo;
 
-    //.//div[@class='mail-Message-Toolbar-Subject mail-Message-Toolbar-Subject_message js-toolbar-subject js-subject-content js-invalid-drag-target']
+    @FindBy(xpath = "((.//span[@title='Тестируем почту'])[1]/../../../../../../..//div)[5]/label/span[1]")
+    protected WebElement checkMail1;
+
+    @FindBy(xpath = "((.//span[@title='Тестируем почту2'])[1]/../../../../../../..//div)[5]/label/span[1]")
+    protected WebElement checkMail2;
+
+    @FindBy(xpath = ".//span[text()='Удалить']")
+    protected WebElement deleteMails;
     /**
      * Вводим текст в поисковую строку.
      *
@@ -201,4 +208,10 @@ public class UnitBase extends Base {
     public void clickFindMail4() { click(findMail4); }
 
     public void clickLogo() { click(logo); }
+
+    public void clickCheckMail1() { click(checkMail1); } //клик на чекбокс с темой 1
+
+    public void clickCheckMail2() { click(checkMail2); } //клик на чекбокс с темой 2
+
+    public void clickDeleteMails() { click(deleteMails); } //клик кнопки удаления писем
 }
