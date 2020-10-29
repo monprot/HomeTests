@@ -74,7 +74,7 @@ public class UnitBase extends Base {
     @FindBy(xpath = ".//div[@class='cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']")
     private WebElement podText;
 
-    @FindBy(xpath = "(.//span[text()='Добавить подпись'])[2]")
+    @FindBy(xpath = ".//span[@class='ui-button-text']")
     private WebElement setPodBut;
 
     @FindBy(xpath = "(.//span[@title='Тестируем почту2'])[1]")
