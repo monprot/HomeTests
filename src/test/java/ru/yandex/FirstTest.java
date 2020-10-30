@@ -12,8 +12,8 @@ import java.util.concurrent.TimeUnit;
 
 public class FirstTest extends TestSettings {
     @Epic("Селениум")
-    @Feature("Гугле тетс")
-    @Story("Проверяем картинки")
+    @Feature("Яндекс поиск")
+    @Story("Гитхаб")
     @Test
     public void firstTest() {
         getDriver().get("https://www.yandex.ru/");//открываем яндекс

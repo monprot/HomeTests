@@ -23,7 +23,12 @@
             <class name="Firsttest.Base2Test"/>
         </classes>
     </test>
-    <test name="Nopackage">
+    <test name="YanANDGit">
+        <classes>
+            <class name="ru.yandex.FirstTest"/>
+        </classes>
+    </test>
+    <test name="YandexMails">
         <classes>
             <class name="ru.yandex.SecondTest"/>
         </classes>

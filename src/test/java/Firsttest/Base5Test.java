@@ -1,5 +1,8 @@
 package Firsttest;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -21,7 +24,9 @@ public class Base5Test extends BaseTest{
 
         return browserProperty;
     }
-
+    @Epic("Простые тесты")
+    @Feature("Первые шаги")
+    @Story("Массив параметров")
     @Test(dataProvider = "SetEnvironment")
     public void Meth5Test(String a, String b) {
         System.out.println(a);
