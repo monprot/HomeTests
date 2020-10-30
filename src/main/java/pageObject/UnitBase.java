@@ -11,89 +11,24 @@ public class UnitBase extends Base {
         super(driver);
     }
 
-    @FindBy(xpath = ".//input[@id='text']")//поле текста поиска яндекса
-    private WebElement setSearchText;
+    @FindBy(xpath = ".//input[@id='text']")
+    private WebElement setSearchText; //поле текста поиска яндекса
 
-    @FindBy(xpath = ".//div[@class='search2__button']/button")//кнопка поиска яндекса
-    private WebElement submitSearch;
+    @FindBy(xpath = ".//div[@class='search2__button']/button")
+    private WebElement submitSearch; //кнопка поиска яндекса
 
-    @FindBy(xpath = ".//div[@class='serp-header__logo']/a")//логотип яндекса
-    private WebElement homeLogo;
+    @FindBy(xpath = ".//div[@class='serp-header__logo']/a")
+    private WebElement homeLogo; //логотип яндекса
 
-    @FindBy(xpath = "(.//b[contains(text(), 'github.com')])[1]//..")//ссылка на гитхаб из первого результата
-    private WebElement aGitHub;
+    @FindBy(xpath = "(.//b[contains(text(), 'github.com')])[1]//..")
+    private WebElement aGitHub; //ссылка на гитхаб из первого результата
 
-    @FindBy(xpath = ".//input[@placeholder='Search GitHub']")//поле текста поиска гитхаба
-    private WebElement setSearchTextGit;
+    @FindBy(xpath = ".//input[@placeholder='Search GitHub']")
+    private WebElement setSearchTextGit; //поле текста поиска гитхаба
 
-    @FindBy(xpath = ".//span[@data-search-type='Users']/..")//категория поиска юзеры
-    private WebElement searchUserGit;
+    @FindBy(xpath = ".//span[@data-search-type='Users']/..")
+    private WebElement searchUserGit; //категория поиска юзеры
 
-    @FindBy(xpath = "//*[@id='passp-field-login']")//поле вводы логина
-    private WebElement yandLogin;
-
-    @FindBy(xpath = "//*[@id='passp-field-passwd']")//поле ввода пароля
-    private WebElement yanPassword;
-
-    @FindBy(xpath = ".//a[@class = 'button2 button2_size_mail-big button2_theme_mail-white button2_type_link HeadBanner-Button HeadBanner-Button-Enter with-shadow']")//кнопка входа в аторизацию майл яндекс
-    private WebElement inbutton;
-
-    @FindBy(xpath = ".//a[@class='mail-ComposeButton js-main-action-compose']")//кнопка написать письмо
-    private WebElement writemail;
-
-    @FindBy(xpath = ".//span[@data-name='Себе']")//кнопка выбора получателя себе
-    private WebElement selfpsot;
-
-    @FindBy(xpath = "(.//input[@type='text'])[3]")//поле ввода темы письма
-    private WebElement mailTheme;
-
-    @FindBy(xpath = ".//div[@class='cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']")//поле ввода текста письма
-    private WebElement mailText;
-
-    @FindBy(xpath = "(.//button[@data-nb='button'])[2]")//кнопка отправить письмо
-    private WebElement mailSend;
-
-    @FindBy(xpath = ".//a[text()='Перейти во «Входящие».']")//кнопка входящие
-    private WebElement inputsMail;
-
-    @FindBy(xpath = ".//span[@class='mail-ComposeButton-Refresh js-main-action-refresh ns-action']")//кнопка обновить
-    private WebElement refreshMail;
-
-    @FindBy(xpath = "(.//span[@title='Тестируем почту'])[1]")
-    private WebElement findMail;
-
-    @FindBy(xpath = "(.//span[@title='текст письма'])[2]")
-    private WebElement findMail2;
-
-    @FindBy(xpath = "(.//button[@data-lego='react'])[2]")
-    private WebElement settingsButton;
-
-    @FindBy(xpath = "(.//span[text()='Личные данные, подпись, портрет'])[2]")
-    private WebElement lkSetButton;
-
-    @FindBy(xpath = ".//div[@class='cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']")
-    private WebElement podText;
-
-    @FindBy(xpath = ".//span[@class='ui-button-text']")
-    private WebElement setPodBut;
-
-    @FindBy(xpath = "(.//span[@title='Тестируем почту2'])[1]")
-    private WebElement findMail3;
-
-    @FindBy(xpath = "(.//span[@title='текст письма2'])[2]")
-    private WebElement findMail4;
-
-    @FindBy(xpath = ".//a[@class='yandex-header__logo-service yandex-header__logo-service_lang_ru count-me']")
-    protected WebElement logo;
-
-    @FindBy(xpath = "((.//span[@title='Тестируем почту'])[1]/../../../../../../..//div)[5]/label/span[1]")
-    protected WebElement checkMail1;
-
-    @FindBy(xpath = "((.//span[@title='Тестируем почту2'])[1]/../../../../../../..//div)[5]/label/span[1]")
-    protected WebElement checkMail2;
-
-    @FindBy(xpath = ".//span[text()='Удалить']")
-    protected WebElement deleteMails;
     /**
      * Вводим текст в поисковую строку.
      *
@@ -132,6 +67,77 @@ public class UnitBase extends Base {
      * Клик на категорию юзеров в поиске
      */
     public void clickSearchUserGit() { click(searchUserGit);}
+
+
+    /**
+     * Для яндекс почты
+     */
+    @FindBy(xpath = "//*[@id='passp-field-login']")
+    private WebElement yandLogin; //поле вводы логина
+
+    @FindBy(xpath = "//*[@id='passp-field-passwd']")
+    private WebElement yanPassword;//поле ввода пароля
+
+    @FindBy(xpath = ".//a[@class = 'button2 button2_size_mail-big button2_theme_mail-white button2_type_link HeadBanner-Button HeadBanner-Button-Enter with-shadow']")
+    private WebElement inbutton;//кнопка входа в аторизацию майл яндекс
+
+    @FindBy(xpath = ".//a[@class='mail-ComposeButton js-main-action-compose']")
+    private WebElement writemail;//кнопка написать письмо
+
+    @FindBy(xpath = ".//span[@data-name='Себе']")
+    private WebElement selfpsot;//кнопка выбора получателя себе
+
+    @FindBy(xpath = "(.//input[@type='text'])[3]")
+    private WebElement mailTheme;//поле ввода темы письма
+
+    @FindBy(xpath = ".//div[@class='cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']")
+    private WebElement mailText;//поле ввода текста письма
+
+    @FindBy(xpath = "(.//button[@data-nb='button'])[2]")
+    private WebElement mailSend;//кнопка отправить письмо
+
+    @FindBy(xpath = ".//a[text()='Перейти во «Входящие».']")
+    private WebElement inputsMail;//кнопка входящие
+
+    @FindBy(xpath = ".//span[@class='mail-ComposeButton-Refresh js-main-action-refresh ns-action']")
+    private WebElement refreshMail;//кнопка обновить
+
+    @FindBy(xpath = "(.//span[@title='Тестируем почту'])[1]")
+    private WebElement findMail;//текст темы в списке сообщений
+
+    @FindBy(xpath = "(.//span[@title='текст письма'])[2]")
+    private WebElement findMail2;//текст сообщения письма в списке сообщений
+
+    @FindBy(xpath = "(.//button[@data-lego='react'])[2]")
+    private WebElement settingsButton;//кнопка настроек
+
+    @FindBy(xpath = "(.//span[text()='Личные данные, подпись, портрет'])[2]")
+    private WebElement lkSetButton;//кнопка настроек личных данных
+
+    @FindBy(xpath = ".//div[@class='cke_wysiwyg_div cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']")
+    private WebElement podText; //поле ввода текста подписи
+
+    @FindBy(xpath = ".//span[@class='ui-button-text']")
+    private WebElement setPodBut; //кнопка "Добавить подпись"
+
+    @FindBy(xpath = "(.//span[@title='Тестируем почту2'])[1]")
+    private WebElement findMail3; //текст темы в списке сообщений
+
+    @FindBy(xpath = "(.//span[@title='текст письма2'])[2]")
+    private WebElement findMail4; //текст сообщения письма в списке сообщений
+
+    @FindBy(xpath = ".//a[@class='yandex-header__logo-service yandex-header__logo-service_lang_ru count-me']")
+    protected WebElement logo;//логотип яндекс почты
+
+    @FindBy(xpath = "((.//span[@title='Тестируем почту'])[1]/../../../../../../..//div)[5]/label/span[1]")
+    protected WebElement checkMail1;//чекбокс сообщения с первой темой
+
+    @FindBy(xpath = "((.//span[@title='Тестируем почту2'])[1]/../../../../../../..//div)[5]/label/span[1]")
+    protected WebElement checkMail2;//чекбокс сообщения со второй темой
+
+    @FindBy(xpath = ".//span[text()='Удалить']")
+    protected WebElement deleteMails;//кнопка удалить сообщения
+
 
     public void clickInButton() { click(inbutton); }
     /**
@@ -187,31 +193,71 @@ public class UnitBase extends Base {
      */
     public void clickRefresh() { click(refreshMail); }
 
+    /**
+     * кликаем на группу сообщений в списке сообщений
+     */
     public void clickFindMail() { click(findMail); }
 
+    /**
+     * кликаем на сообщение в группе сообщений в списке сообщений
+     */
     public void clickFindMail2() { click(findMail2); }
 
+    /**
+     * кликаем на кнопку настроек
+     */
     public void clickSettingButton() { click(settingsButton); }
 
+    /**
+     * кликаем на настройку личных данных
+     */
     public  void clickLkSetButton() { click(lkSetButton); }
 
+    /**
+     * Клик в поле воода подписи
+     */
     public void clickPodpText() { click(podText); }
 
+    /**
+     * Ввод подписи
+     * @param text
+     */
     public void setPodpText(String text) {
         setText(podText, text) ;
     }
 
+    /**
+     * кликаем кнопку добавления подписи
+     */
     public void clickSetPodButton() { click(setPodBut); }
 
+    /**
+     * кликаем по группе сообщений с нужной темой
+     */
     public void clickFindMail3() { click(findMail3); }
 
+    /**
+     * кликаем на сообщений в группе сообщений
+     */
     public void clickFindMail4() { click(findMail4); }
 
+    /**
+     * кликаем на логотип яндекс почты
+     */
     public void clickLogo() { click(logo); }
 
-    public void clickCheckMail1() { click(checkMail1); } //клик на чекбокс с темой 1
+    /**
+     * кликаем на чекбокс с темой 1
+     */
+    public void clickCheckMail1() { click(checkMail1); }
 
-    public void clickCheckMail2() { click(checkMail2); } //клик на чекбокс с темой 2
+    /**
+     * кликаем на чекбокс с темой 2
+     */
+    public void clickCheckMail2() { click(checkMail2); }
 
-    public void clickDeleteMails() { click(deleteMails); } //клик кнопки удаления писем
+    /**
+     * кликаем кнопку удаления писем
+     */
+    public void clickDeleteMails() { click(deleteMails); }
 }
